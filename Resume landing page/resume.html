@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Landing Page</title>
+<meta name"viewport" content="width= device-width, initial-scale=1.0">
+
+<style>
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body
+{
+background: #efefef;
+font-family: sans-serif;
+}
+.profile-img
+{ 
+width: 40%;
+float: right;
+}
+.profile-img img
+{
+width: 100%;
+height: 100%;
+}
+.about
+{
+margin-left: 15px;
+}
+.profile-info
+{
+width: 60%;
+height: 100vh;
+float: left;
+padding: 0 30px;
+overflow: scroll;
+overflow-x: hidden;
+}
+
+.profile-info::-wbkit-scrollbar
+{
+width: 0px;
+}
+.profile-info h1
+{
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.socia-media
+{
+height: 30px;
+margin-right: 15px;
+}
+.social-media
+{
+margin-top: 20px;
+margin-left: 15px;
+}
+.profile-info
+{
+margin-top: 50px;
+margin-bottom: 15px;
+}
+.profile-info::-wbkit-scrollbar
+{
+width: 0px;
+}
+.expertise img
+{
+ height: 5%;
+margin: 5px;
+}
+.expertise
+{
+display: inline-block;
+width: 28%;
+padding: 30px 20px;
+margin: 2%;
+text-align: center;
+box-shadow: 0 0 15px 1px rgb(37, 73, 214, 0.18);
+background-color: #fff;
+}
+.expertise small
+{
+padding-top: 10px;
+display: block;
+}
+.Projects
+{
+width: 30%;
+padding: 4px;
+margin-bottom: 5px;
+margin-left: 5px;
+}
+.form-box
+{
+margin-top: 30px;
+}
+input-group input
+{
+width: 45%;
+border: 0;
+outline: none !important;
+padding: 10px;
+margin: 2%;
+display: inline-block;
+background-color: #fff;
+}
+.text-area textarea
+{
+width: 95%;
+border: 0;
+outline: none !important;
+padding: 10px;
+margin: 2%;
+display: inline-block;
+background-color: #fff;
+}
+.submit-button 
+{
+border: 0;
+outline: none !important;
+padding: 10p 20px;
+margin: 2%;
+display: inline-block;
+background-color: #2ab0ff;
+cursor: pointer;
+}
+.contact img
+{
+width: 20px;
+margin: 5px 10px;
+}
+.contact span
+{
+margin: 3%;
+}
+.contact
+{
+margin: 5% 0 5% 25%;
+width: 65%;
+}
+.copyright
+{
+text-align: center;
+margin-bottom: 20px;
+}
+@media only screen and (max-width:900px)
+{
+.profile-info
+{
+width: 100%;
+overflow: inherit;
+}
+.profile-img
+{
+width: 100%;
+}
+.expertise
+{
+width: 95%;
+margin-bottom: 10%;
+}
+.expertise img
+{
+height: 10%;
+margin: 10px 0;
+}
+.Projects img
+{
+width: 47%;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="profile-img">
+<img src="images/me.jpg" alt="My Picture" width="600" height="600">
+</div>
+
+<div class="profile-info">
+<h1>Kriti Verma</h1>
+<p class="about">I am persuing B.tech from Ajay Kumar Garg Engineering College in the branch of Information Technology.
+I am looking forward to contribute in your organization. I am a hard-working and dedicated person</p>
+<div class="social-media">
+<img src="images/facebook-icon.png" width="50" height="50">
+<img src="images/instagram-icon.png" width="50" height="50">
+<img src="images/whatsapp-icon.png" width="50" height="50">
+</div>
+ <h2>Expertise</h2>
+<div class="expertise">
+<img src="images/2.jpg" width="200" height="200">
+<p><b>Web Designing</b></p>
+<small>Web design is a multi-disciplinary job, where you'd need not only knowledge in design (typography, color theory) but also skills in developing a website (HTML, CSS, JavaScript). Some web designers are also involved in interaction design when they code for animations and interactions using CSS and/or JavaScript.</small>
+</div>
+
+<div class="expertise">
+<img src="images/1.jpg" width="200" height="200">
+<p><b>Marketing</b></p>
+<small>Marketing is the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large. </small>
+</div>
+
+<div class="expertise">
+<img src="images/3.jpg" width="200" height="200">
+<p><b>Programing</b></p>
+<small>Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++.</small>
+</div>
+
+<h2>My Project Work</h2>
+<div class="Projects">
+<img src="images/a.jpg" width="200" height="200">
+<img src="images/b.jpg" width="200" height="200">
+<img src="images/c.jpg" width="200" height="200">
+<img src="images/d.jpg" width="200" height="200">
+</div>
+<div class="form-box">
+<h2>Contact Me</h2>
+<form>
+<div class="input-group">
+<input type="text" placeholder="First Name">
+<input type="text" placeholder="Last Name">
+</div>
+
+
+<div class="input-group">
+<input type="number" placeholder="Phone Number">
+<input type="email" placeholder="Email Id">
+</div>
+
+<div class="text-area">
+<textarea rows="4" placeholder="Your Message"></textarea>
+</div>
+<button type="submit" class="submit-button">SEND MESSAGE</button>
+</form>
+
+</div>
+
+<div class="contact">
+<span><img src="images/gmail.png" width="20" height="20">kritiverma662@gmail.com</span>
+<span><img src="images/phone.png" width="20" height="20">+91 1234567890</span>
+</div>
+<p class="copyright">Designed by Kriti Verma</p>
+
+
+</div>
+
+</body>
+</html>
